@@ -76,18 +76,19 @@ h2{
     border-radius: 1rem;
     padding: 2rem 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
-#multiplication-operations .row{
+#multiplication-operations .row {
     display: flex;
     justify-content: center;
     border: 1px solid #ccc;
-    border-bottom: none;
+   
     padding: 0.5rem;
     width: 150px;
 }
 
-#multiplication-operations .row:last-child{
+#multiplication-operations .row:last-child {
     border-bottom: 1px solid #ccc;
 }
 
